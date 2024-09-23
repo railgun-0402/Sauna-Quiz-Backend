@@ -1,0 +1,25 @@
+.bg-light-gray {
+    background-color: #f8f9fa;
+}
+
+.navbar-light .navbar-nav .nav-link {
+    color: $text-color-dark;
+    &:hover {
+        background-color: darken($bg-custom-green, 10%);
+        color: #343a40;
+    }
+}
+
+.bg-custom-green {
+    background-color: $bg-custom-green;
+    color: $text-color-light;
+
+    .nav-link {
+        color: $text-color-light;
+
+        &:hover {
+            background-color: lighten($bg-custom-green, 10%);
+            color: $text-color-dark;
+        }
+    }
+}
